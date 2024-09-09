@@ -1,0 +1,21 @@
+/* navbar.module.css */
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: left; /* Center items vertically */
+    justify-content: center; /* Center content horizontally */
+    width: 100%;
+    position: fixed; /* Fix the position at the top */
+    top: 0; /* Align to the top */
+    left: 0;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.title {
+    color: black; /* Set title color to white */
+    font-weight: bold;
+    text-transform: capitalize;
+}

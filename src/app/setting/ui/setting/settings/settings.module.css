@@ -1,0 +1,183 @@
+.container {
+    padding: 2px;
+    background-color: #F5F8F9;
+    border-radius: 10px;
+    max-width: 100%; /* Ensure container is responsive */
+}
+
+.table td:nth-child(3) {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    width: 24px;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.user {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family */
+}
+
+/* Box styling for displaying static text */
+.box {
+    background-color: #e6f2fa;
+    color: #868686;
+    text-align: left;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family */
+}
+
+.mainContainer, .formContainer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    border-radius: 20px;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.inputButtonWrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.changePasswordBtn {
+    background-color: rgb(255, 0, 115);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    height: 60px;
+    width: 190px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family */
+}
+
+.changePasswordBtn:hover {
+    background-color: rgb(139, 0, 74);
+}
+
+/* Third container styling */
+.removeAccountTitle {
+    margin-bottom: 1rem;
+}
+
+.mainText {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family */
+}
+
+.subText {
+    font-size: 13px;
+    color: grey;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family */
+}
+
+.buttonsWrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.buttonone, .buttonnd {
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    height: 60px;
+    width: 170px;
+    border: none;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family */
+}
+
+.buttonone {
+    background-color: rgb(255, 0, 115);
+    color: white;
+}
+
+.buttonnd {
+    background-color: rgb(231, 201, 237);
+    color: rgb(139, 0, 74);
+}
+
+.buttonone:hover {
+    background-color: rgb(139, 0, 74);
+}
+
+.buttonnd:hover {
+    background-color: rgb(198, 163, 186);
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    border-radius: 40%;
+    object-fit: cover;
+    display: block;
+}
+
+.buttonimg {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    width: 170px;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family */
+}
+
+.account {
+    font-weight: bold;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    flex: 1;
+    color: black;
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family */
+}
+
+.remove {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family */
+    margin-bottom: 20px;
+}
+
+.remove label {
+    margin-bottom: 10px;
+}
+
+.titleMain {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family */
+}
